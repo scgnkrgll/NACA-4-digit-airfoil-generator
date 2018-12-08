@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>NACA 4 Digit Airfoil Generator</title>
+    <style>
+        .chart {
+            width: 400px;
+            height: 400px;
+            padding: 0px 0px 0px 0px;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <svg id="chart" viewBox="0 0 1.01 1.01" class="chart">
+        <polyline id="camberLine" fill="none" stroke="#dd5500" stroke-width="0.005" stroke-dasharray="0.02" points="" />
+        <polyline id="airfoil" fill="#99dd00" fill-opacity="0.1" stroke="#0074d9" stroke-width="0.005" points="" />
+    </svg>
+    
+    <script src="../Naca4DigitAirfoilGenerator.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

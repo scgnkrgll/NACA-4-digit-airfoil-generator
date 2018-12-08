@@ -1,5 +1,9 @@
-/** Class creates a NACA 4 digit family airfoil. */
-class Naca4DigitGenerator {
+/**
+ * Generates a NACA 4 digit family airfoil.
+ * @class
+ * @author: Seçgin Karagülle <scgn.krgll@outlook.com>
+ */
+class Naca4DigitAirfoilGenerator {
     /**
      * Define an airfoil.
      * @param {string} profileCode - The profile code.
